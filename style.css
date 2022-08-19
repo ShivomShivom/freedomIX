@@ -1,0 +1,96 @@
+a:link{
+  text-decoration: none;
+  color: #FAFAFA;
+}
+a:visited{
+  text-decoration: none;
+  color: #FAFAFA;
+}
+@font-face {
+ font-family:'Comfortaa';
+ src:url(Comfortaa-VariableFont_wght.ttf);
+ font-style: oblique;
+ font-weight: 300;
+ font-size: 72px;
+}
+
+body {
+  background-color: #F4F9F9;
+}
+
+.leftbox {
+     margin-left: 60px;
+     margin-top: 50px;
+     float:left;
+     border-color: #AAAAAA;
+     border-style: solid;
+     width:26%;
+     height:500px;
+     transition: width 1s;
+     padding-left: 5px;
+            }
+.middlebox{
+                float:left;
+                border-color: #AAAAAA;
+                border-style: solid;
+                width:35%;
+                height:600px;
+                margin-left: 25px;
+                transition: width 1s;
+                padding-left: 5px;
+
+            }
+.rightbox{
+                float:right;
+                margin-right: 60px;
+                margin-top: 50px;
+                border-color: #AAAAAA;
+                border-style: solid;
+                width:26%;
+                height:550px;
+                transition: width 1s;
+                padding-left: 5px;
+
+            }
+
+.leftbox:hover {
+	width: 27%;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.middlebox:hover {
+	width: 36%;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.rightbox:hover {
+	width: 27%;
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.header {
+ height: 150px;
+ width: max;
+ background-color: #132e3d;
+ margin-bottom: 10px;
+}
+
+.center {
+	line-height: 150px;
+	text-align: center;
+	color: white;
+}
+
+b{
+	font-family: Comfortaa;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #07689F;
+}
+
+ul,li,div{
+font-family:Dosis;
+font-size:18px;
+}

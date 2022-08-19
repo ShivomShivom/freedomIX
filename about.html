@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="india.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+    <style media="screen">
+    html{
+      background-color: #07689F;
+    }
+    body{
+      height: 100%;
+    }
+    h1{
+      font-family: Comfortaa;
+      font-size: 60px;
+      color: #ff7e67;
+      text-align: center;
+    }
+    @font-face {
+      font-family: "Comfortaa";
+      src: url(Comfortaa-Regular.ttf);
+      font-weight: bold;
+    }
+
+    img{
+      align-items: center;
+      width: 70%;
+      height: 50%;
+      padding-left: 220px;
+    }
+
+
+    .sidenav{
+    	height: 100%;
+    	width: 0;
+    	position: fixed;
+    	z-index: 1;
+    	top: 0;
+    	left: 0;
+    	background: #07689F;
+    	overflow-x: hidden;
+    	transition: 0.5s;
+    	padding-top: 60px
+    	border: 5px solid #ff7e67
+    }
+
+    .sidenav a {
+    	padding: 8px 8px 8px 32px;
+    	text-decoration: none;
+    	font-size: 25px;
+    	color: #F76E11;
+    	display: block;
+    	transition: 0.3s;
+    }
+
+    .sidenav a: hover {
+    	color: #FAFAFA;
+    }
+
+    .sidenav .closebtn {
+    	position: absolute;
+    	top: 0;
+    	right: 25px;
+    	font-size: 36px;
+    	margin-left: 50px;
+    }
+
+    #main {
+    	transition: margin-left .5s;
+    	padding: 16px;
+    }
+
+    @media screen and (max-height: 450px) {
+    	.sidenav {padding-top: 15px;}
+    	.sidenav a {font-size: 18px;}
+    }
+
+
+
+
+    }
+    @font-face {
+      font-family: "Comfortaa";
+      src: url(Comfortaa-Regular.ttf);
+    }
+    .sidenav h2{
+      font-size: 24px;
+
+      font-family: "Comfortaa";
+    }
+    h3{
+      font-size: 32px;
+      color: #ff7e67;
+      align-items: center;
+
+
+      font-family: "Comfortaa";
+    }
+    .formm{
+      position: absolute;
+      left: 40%;
+      top: 15%;
+    }
+    .hello{
+      width: 50%;
+      height: 60px;
+      position: absolute;
+      left: 25%;
+      margin-top: 40px;
+      background: transparent;
+      border: 2px solid #FAFAFA;
+      color: #ff7e67;
+      font-weight: bolder;
+      font-size: 24px;
+      border-radius: 20px;
+      cursor: pointer;
+
+    }
+
+  </style>
+  </head>
+
+  <body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html" target="_self"><h2>Home</h2></a>
+      <a href="types of freedom.html" target="_self"><h2>Types of freedom</h2></a>
+      <a href="webpage.html" target="_self"><h2>Global freedom</h2></a>
+      <a href="india.html" target="_self"><h2>Freedom within India</h2></a>
+      <a href="contact-details.html" target="_self"><h2>Contact us</h2></a>
+      <a href="about.html" target="_self"><h2>About us</h2></a>
+      <a href="Bibliography.html" target="_self"><h2>Bibiolography</h2></a>
+
+    </div>
+
+    <div id="main">
+
+      <span style="font-size: 30px;color: #F76E11;cursor:pointer; font-family="Comfortaa";" onclick="openNav()">&#9776;</span>
+      <div class="main">
+
+        <h1>About us</h1>
+        <img src="About_us.png" alt="About us">
+      </div>
+
+    <script>
+      function openNav(){
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0, 0, 0,0.4)";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "#07689F";
+      }
+
+
+    </script>
+  </body>
+</html>
